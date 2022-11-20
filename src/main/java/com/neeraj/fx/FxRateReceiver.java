@@ -12,7 +12,7 @@ public class FxRateReceiver {
 
     private Consumer<String> messageProcessor;
 
-    public void messageConsumer(Consumer<String> messageProcessor) {
+    public void messageProcessor(Consumer<String> messageProcessor) {
         this.messageProcessor = messageProcessor;
     }
 
